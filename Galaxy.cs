@@ -2,7 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using System.Threading.Tasks
+using System.Threading.Tasks;
 
 class Galaxy : CelestialBody                                // Inherits name and mass from the celestial body super class but mass is never used
 {
