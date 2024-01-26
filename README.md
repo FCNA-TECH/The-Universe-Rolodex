@@ -7,5 +7,7 @@ To download and use this project, Download all files (Program, Celestial Body, G
 The Oject Oriented Programming Techniques i used in this project:
 - Inheritence
 - Constructors
-- Instanciation
-- 
+- Instantiation
+- Protected properties
+- Public Methods
+  
