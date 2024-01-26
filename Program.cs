@@ -59,56 +59,39 @@ Saturn.AddMoon(Mimas);
 // Uranus and its Moons (im not adding all 27 only 3)
 Planet Uranus = new Planet("Uranus", 8.69);
 Sun.AddPlanet(Uranus);
-Moon Miranda = new Moon("Miranda", 0000);
+Moon Miranda = new Moon("Miranda", 0000);                         // The Speed value is 0 becuase i have not found it yet
 Uranus.AddMoon(Miranda);
-Moon Cupid = new Moon("Cupid", 0000);
+Moon Cupid = new Moon("Cupid", 0000);                         // The Speed value is 0 becuase i have not found it yet
 Uranus.AddMoon(Cupid);
-Moon Oberon = new Moon("Oberon", 0000);
+Moon Oberon = new Moon("Oberon", 0000);                         // The Speed value is 0 becuase i have not found it yet
 Uranus.AddMoon(Oberon);
  
 Planet Neptune = new Planet("Neptune", 11.15);
 Sun.AddPlanet(Neptune);
 
   
-Star Alpha_Centauri = new Star("Alpha Centauri", 150, 300);
-Star Barnards_Star = new Star("Barnards Star", 300, 600);
-Star Luhman_16 = new Star("Luhman 16", 150, 300);
- 
- 
- 
-Galaxy Andromida = new Galaxy("Andromida", 3.44);
- 
-// Stars
- 
- 
-Star Alpheratz = new Star("Alpheratz", 10, 60);
-Star Mirach = new Star("Mirach", 30, 70);
- 
- 
-Planet ProximaB = new Planet("Proxima B", 10);
-Planet Aplha_CentauriBb= new Planet("Alpha Centauri Bb", 3.71);
- 
- 
-// Adding Stars
-Milkyway.AddStar(Sun);
+Star Alpha_Centauri = new Star("Alpha Centauri", 150, 300);                         // The mass and temp values are random becuase i have not found it yet
 Milkyway.AddStar(Alpha_Centauri);
-Milkyway.AddStar(Barnards_Star);
-Milkyway.AddStar(Luhman_16);
- 
-Andromida.AddStar(Alpheratz);
-Andromida.AddStar(Mirach);
- 
- 
-// Adding Planets
-Sun.AddPlanet(Earth);
-Sun.AddPlanet(Mars);
- 
+
+Planet ProximaB = new Planet("Proxima B", 10);                                   // The gravity values are random becuase i have not found it yet
 Alpha_Centauri.AddPlanet(ProximaB);
+
+Planet Aplha_CentauriBb= new Planet("Alpha Centauri Bb", 3.71);               // The gravity values are random becuase i have not found it yet
 Alpha_Centauri.AddPlanet(Aplha_CentauriBb);
+
  
-// Adding Moons
-Earth.AddMoon(Moon);
-Mars.AddMoon(Phobos);
+// Andromida
+Galaxy Andromida = new Galaxy("Andromida", 3.44);
+
+// Andromida's Stars
+Star Alpheratz = new Star("Alpheratz", 10, 60);                              // The mass and temp values are random becuase i have not found it yet
+Andromida.AddStar(Alpheratz);
+
+Star Mirach = new Star("Mirach", 30, 70);                                   // The mass and temp values are random becuase i have not found it yet
+Andromida.AddStar(Mirach);
+
+
+
  
  
 Milkyway.Print();
