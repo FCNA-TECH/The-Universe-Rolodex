@@ -7,7 +7,7 @@ using System.Threading.Tasks
 class Galaxy : CelestialBody                                // Inherits name and mass from the celestial body super class but mass is never used
 {
     private double Magnitude;
-    private List<Star> Stars = new List<Star>();
+    private List<Star> Stars = new List<Star>();            // Wil store the corresponding list of Stars for the galaxy in this list
  
     public Galaxy(string varName, double varMagnitude)      // Constructor
     { 
