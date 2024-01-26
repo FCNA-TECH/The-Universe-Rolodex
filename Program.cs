@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 using System.Net.Http.Headers;
 
 // The Main Program
-
+// It works but there are some values for moons, planets and stars that need updating so they display the correct value
  
  
 // Milkyway
