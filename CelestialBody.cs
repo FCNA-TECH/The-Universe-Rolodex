@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks
 
-class CelestialBody
+class CelestialBody                        // This is the super class that all other classses will inherit name and mass properties from
 {
     protected string Name;
     protected double Mass;
