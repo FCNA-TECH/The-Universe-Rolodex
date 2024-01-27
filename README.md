@@ -1,4 +1,4 @@
-# The-Universe-Rolodex
+# The-Universe-Rolodex-OOP
 This project is my first introduction into Object Oriented Programming and is a simple programme that displays info of the different galaxies and their planets and stars.
 The name Rolodex was inspired by the netflix show "The Brothers Sun" I recommend it as its very good.
 
